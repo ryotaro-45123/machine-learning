@@ -1,0 +1,12 @@
+version: '3'
+services:
+  ml:
+    container_name: ml
+    tty: true
+    build:
+      context: .
+      dockerfile: dockerfile
+    volumes:
+      - .:/workspace
+    ports:
+      - 7777:8888
