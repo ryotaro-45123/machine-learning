@@ -9,4 +9,4 @@ services:
     volumes:
       - .:/workspace
     ports:
-      - 7777:8888
+      - 8888:8888
